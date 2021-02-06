@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'a Atomic Md';
+  font-style: normal;
+  font-weight: normal;
+  src: url('AtomicMd.woff') format('woff');
+}
+
+body {
+  background-image: url("images/bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+nav {
+  font-family: 'a Atomic Md';
+}
+
+li.nav-link a {
+  color: rgb(148, 0, 217);
+}
+
+li.nav-link a:hover {
+  color: rgb(2, 163, 227);
+  text-decoration: underline;
+}
+
+li.nav-link.active {
+  background-color: rgb(148, 0, 217);
+}
+
+li.nav-link.active a {
+  color: rgb(33, 37, 41);
+}
+
+li.nav-link.active a:hover {
+  color: rgb(2, 163, 227);
+  text-decoration: underline;
+}
+
+div section {
+        
+}
+
+img.logo-image {
+  max-width: 100%;
+}
+
+.bg-grad-left {
+  background: linear-gradient(to left, rgba(200, 200, 200, 0.9), rgba(200, 200, 200, 0.0));
+}
+
+.bg-grad-center {
+  background-color: rgba(200, 200, 200, 0.9);
+}
+
+.bg-grad-right {
+  background: linear-gradient(to right, rgba(200, 200, 200, 0.9), rgba(200, 200, 200, 0.0));
+}
